@@ -1,0 +1,1103 @@
+[
+	{
+		"type": "header",
+		"subtype": "h2",
+		"label": "Contact"
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "Paragraph",
+		"className": "alert alert-info"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "First Name",
+		"className": "form-control",
+		"name": "first_name",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Last Name",
+		"className": "form-control",
+		"name": "last_name",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"subtype": "email",
+		"required": true,
+		"label": "Email",
+		"className": "form-control",
+		"name": "email_1"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Phone",
+		"className": "form-control",
+		"name": "cell_phone",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Address",
+		"placeholder": "e.g. 123 Example St.",
+		"className": "form-control",
+		"name": "mailing_address_1",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "City",
+		"placeholder": "City",
+		"className": "form-control",
+		"name": "city",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Region",
+		"placeholder": "Region",
+		"className": "form-control",
+		"name": "region",
+		"subtype": "text"
+	},
+	{
+		"type": "select",
+		"label": "Country",
+		"className": "form-control",
+		"name": "country",
+		"values": [
+			{
+				"label": "United States",
+				"value": "840"
+			},
+			{
+				"label": "Oman",
+				"value": "512"
+			},
+			{
+				"label": "Togo",
+				"value": "768"
+			},
+			{
+				"label": "French Polynesia",
+				"value": "258"
+			},
+			{
+				"label": "Afghanistan",
+				"value": "4"
+			},
+			{
+				"label": "French Southern Territories",
+				"value": "260"
+			},
+			{
+				"label": "Namibia",
+				"value": "516"
+			},
+			{
+				"label": "Tokelau",
+				"value": "772"
+			},
+			{
+				"label": "Djibouti",
+				"value": "262"
+			},
+			{
+				"label": "Albania",
+				"value": "8"
+			},
+			{
+				"label": "Nauru",
+				"value": "520"
+			},
+			{
+				"label": "Tonga",
+				"value": "776"
+			},
+			{
+				"label": "Antarctica",
+				"value": "10"
+			},
+			{
+				"label": "Gabon",
+				"value": "266"
+			},
+			{
+				"label": "Algeria",
+				"value": "12"
+			},
+			{
+				"label": "Georgia",
+				"value": "268"
+			},
+			{
+				"label": "Nepal",
+				"value": "524"
+			},
+			{
+				"label": "Trinidad and Tobago",
+				"value": "780"
+			},
+			{
+				"label": "Gambia",
+				"value": "270"
+			},
+			{
+				"label": "American Samoa",
+				"value": "16"
+			},
+			{
+				"label": "Netherlands",
+				"value": "528"
+			},
+			{
+				"label": "United Arab Emirates",
+				"value": "784"
+			},
+			{
+				"label": "Palestinian Territory, Occupied",
+				"value": "275"
+			},
+			{
+				"label": "Curaçao",
+				"value": "531"
+			},
+			{
+				"label": "Andorra",
+				"value": "20"
+			},
+			{
+				"label": "Germany",
+				"value": "276"
+			},
+			{
+				"label": "Tunisia",
+				"value": "788"
+			},
+			{
+				"label": "Aruba",
+				"value": "533"
+			},
+			{
+				"label": "Sint Maarten (Dutch part)",
+				"value": "534"
+			},
+			{
+				"label": "Bonaire, Sint Eustatius and Saba",
+				"value": "535"
+			},
+			{
+				"label": "Angola",
+				"value": "24"
+			},
+			{
+				"label": "Turkey",
+				"value": "792"
+			},
+			{
+				"label": "Turkmenistan",
+				"value": "795"
+			},
+			{
+				"label": "Antigua and Barbuda",
+				"value": "28"
+			},
+			{
+				"label": "New Caledonia",
+				"value": "540"
+			},
+			{
+				"label": "Turks and Caicos Islands",
+				"value": "796"
+			},
+			{
+				"label": "Tuvalu",
+				"value": "798"
+			},
+			{
+				"label": "Azerbaijan",
+				"value": "31"
+			},
+			{
+				"label": "Argentina",
+				"value": "32"
+			},
+			{
+				"label": "Ghana",
+				"value": "288"
+			},
+			{
+				"label": "Uganda",
+				"value": "800"
+			},
+			{
+				"label": "Australia",
+				"value": "36"
+			},
+			{
+				"label": "Gibraltar",
+				"value": "292"
+			},
+			{
+				"label": "Vanuatu",
+				"value": "548"
+			},
+			{
+				"label": "Ukraine",
+				"value": "804"
+			},
+			{
+				"label": "Macedonia, the former Yugoslav Republic of",
+				"value": "807"
+			},
+			{
+				"label": "Austria",
+				"value": "40"
+			},
+			{
+				"label": "Kiribati",
+				"value": "296"
+			},
+			{
+				"label": "New Zealand",
+				"value": "554"
+			},
+			{
+				"label": "Bahamas",
+				"value": "44"
+			},
+			{
+				"label": "Greece",
+				"value": "300"
+			},
+			{
+				"label": "Nicaragua",
+				"value": "558"
+			},
+			{
+				"label": "Bahrain",
+				"value": "48"
+			},
+			{
+				"label": "Greenland",
+				"value": "304"
+			},
+			{
+				"label": "Bangladesh",
+				"value": "50"
+			},
+			{
+				"label": "Niger",
+				"value": "562"
+			},
+			{
+				"label": "Egypt",
+				"value": "818"
+			},
+			{
+				"label": "Armenia",
+				"value": "51"
+			},
+			{
+				"label": "Barbados",
+				"value": "52"
+			},
+			{
+				"label": "Grenada",
+				"value": "308"
+			},
+			{
+				"label": "Nigeria",
+				"value": "566"
+			},
+			{
+				"label": "Belgium",
+				"value": "56"
+			},
+			{
+				"label": "Guadeloupe",
+				"value": "312"
+			},
+			{
+				"label": "Niue",
+				"value": "570"
+			},
+			{
+				"label": "United Kingdom",
+				"value": "826"
+			},
+			{
+				"label": "Bermuda",
+				"value": "60"
+			},
+			{
+				"label": "Guam",
+				"value": "316"
+			},
+			{
+				"label": "Norfolk Island",
+				"value": "574"
+			},
+			{
+				"label": "Guernsey",
+				"value": "831"
+			},
+			{
+				"label": "Bhutan",
+				"value": "64"
+			},
+			{
+				"label": "Guatemala",
+				"value": "320"
+			},
+			{
+				"label": "Jersey",
+				"value": "832"
+			},
+			{
+				"label": "Isle of Man",
+				"value": "833"
+			},
+			{
+				"label": "Norway",
+				"value": "578"
+			},
+			{
+				"label": "Tanzania, United Republic of",
+				"value": "834"
+			},
+			{
+				"label": "Bolivia, Plurinational State of",
+				"value": "68"
+			},
+			{
+				"label": "Guinea",
+				"value": "324"
+			},
+			{
+				"label": "Northern Mariana Islands",
+				"value": "580"
+			},
+			{
+				"label": "United States Minor Outlying Islands",
+				"value": "581"
+			},
+			{
+				"label": "Bosnia and Herzegovina",
+				"value": "70"
+			},
+			{
+				"label": "Micronesia, Federated States of",
+				"value": "583"
+			},
+			{
+				"label": "Botswana",
+				"value": "72"
+			},
+			{
+				"label": "Guyana",
+				"value": "328"
+			},
+			{
+				"label": "Marshall Islands",
+				"value": "584"
+			},
+			{
+				"label": "Palau",
+				"value": "585"
+			},
+			{
+				"label": "Bouvet Island",
+				"value": "74"
+			},
+			{
+				"label": "Pakistan",
+				"value": "586"
+			},
+			{
+				"label": "Brazil",
+				"value": "76"
+			},
+			{
+				"label": "Haiti",
+				"value": "332"
+			},
+			{
+				"label": "Heard Island and McDonald Islands",
+				"value": "334"
+			},
+			{
+				"label": "Panama",
+				"value": "591"
+			},
+			{
+				"label": "Holy See (Vatican City State)",
+				"value": "336"
+			},
+			{
+				"label": "Virgin Islands, U.S.",
+				"value": "850"
+			},
+			{
+				"label": "Belize",
+				"value": "84"
+			},
+			{
+				"label": "Honduras",
+				"value": "340"
+			},
+			{
+				"label": "British Indian Ocean Territory",
+				"value": "86"
+			},
+			{
+				"label": "Papua New Guinea",
+				"value": "598"
+			},
+			{
+				"label": "Burkina Faso",
+				"value": "854"
+			},
+			{
+				"label": "Hong Kong",
+				"value": "344"
+			},
+			{
+				"label": "Paraguay",
+				"value": "600"
+			},
+			{
+				"label": "Solomon Islands",
+				"value": "90"
+			},
+			{
+				"label": "Uruguay",
+				"value": "858"
+			},
+			{
+				"label": "Virgin Islands, British",
+				"value": "92"
+			},
+			{
+				"label": "Hungary",
+				"value": "348"
+			},
+			{
+				"label": "Peru",
+				"value": "604"
+			},
+			{
+				"label": "Uzbekistan",
+				"value": "860"
+			},
+			{
+				"label": "Venezuela, Bolivarian Republic of",
+				"value": "862"
+			},
+			{
+				"label": "Brunei Darussalam",
+				"value": "96"
+			},
+			{
+				"label": "Iceland",
+				"value": "352"
+			},
+			{
+				"label": "Philippines",
+				"value": "608"
+			},
+			{
+				"label": "Bulgaria",
+				"value": "100"
+			},
+			{
+				"label": "India",
+				"value": "356"
+			},
+			{
+				"label": "Pitcairn",
+				"value": "612"
+			},
+			{
+				"label": "Myanmar",
+				"value": "104"
+			},
+			{
+				"label": "Indonesia",
+				"value": "360"
+			},
+			{
+				"label": "Poland",
+				"value": "616"
+			},
+			{
+				"label": "Burundi",
+				"value": "108"
+			},
+			{
+				"label": "Iran, Islamic Republic of",
+				"value": "364"
+			},
+			{
+				"label": "Portugal",
+				"value": "620"
+			},
+			{
+				"label": "Wallis and Futuna",
+				"value": "876"
+			},
+			{
+				"label": "Belarus",
+				"value": "112"
+			},
+			{
+				"label": "Iraq",
+				"value": "368"
+			},
+			{
+				"label": "Guinea-Bissau",
+				"value": "624"
+			},
+			{
+				"label": "Timor-Leste",
+				"value": "626"
+			},
+			{
+				"label": "Samoa",
+				"value": "882"
+			},
+			{
+				"label": "Cambodia",
+				"value": "116"
+			},
+			{
+				"label": "Ireland",
+				"value": "372"
+			},
+			{
+				"label": "Puerto Rico",
+				"value": "630"
+			},
+			{
+				"label": "Yemen",
+				"value": "887"
+			},
+			{
+				"label": "Cameroon",
+				"value": "120"
+			},
+			{
+				"label": "Israel",
+				"value": "376"
+			},
+			{
+				"label": "Qatar",
+				"value": "634"
+			},
+			{
+				"label": "Canada",
+				"value": "124"
+			},
+			{
+				"label": "Italy",
+				"value": "380"
+			},
+			{
+				"label": "Réunion",
+				"value": "638"
+			},
+			{
+				"label": "Zambia",
+				"value": "894"
+			},
+			{
+				"label": "Côte d'Ivoire",
+				"value": "384"
+			},
+			{
+				"label": "Romania",
+				"value": "642"
+			},
+			{
+				"label": "Russian Federation",
+				"value": "643"
+			},
+			{
+				"label": "Cape Verde",
+				"value": "132"
+			},
+			{
+				"label": "Jamaica",
+				"value": "388"
+			},
+			{
+				"label": "Rwanda",
+				"value": "646"
+			},
+			{
+				"label": "Cayman Islands",
+				"value": "136"
+			},
+			{
+				"label": "Japan",
+				"value": "392"
+			},
+			{
+				"label": "Central African Republic",
+				"value": "140"
+			},
+			{
+				"label": "Saint Barthélemy",
+				"value": "652"
+			},
+			{
+				"label": "Kazakhstan",
+				"value": "398"
+			},
+			{
+				"label": "Saint Helena, Ascension and Tristan da Cunha",
+				"value": "654"
+			},
+			{
+				"label": "Sri Lanka",
+				"value": "144"
+			},
+			{
+				"label": "Jordan",
+				"value": "400"
+			},
+			{
+				"label": "Saint Kitts and Nevis",
+				"value": "659"
+			},
+			{
+				"label": "Chad",
+				"value": "148"
+			},
+			{
+				"label": "Kenya",
+				"value": "404"
+			},
+			{
+				"label": "Anguilla",
+				"value": "660"
+			},
+			{
+				"label": "Saint Lucia",
+				"value": "662"
+			},
+			{
+				"label": "Saint Martin (French part)",
+				"value": "663"
+			},
+			{
+				"label": "Chile",
+				"value": "152"
+			},
+			{
+				"label": "Korea, Democratic People's Republic of",
+				"value": "408"
+			},
+			{
+				"label": "Korea, Republic of",
+				"value": "410"
+			},
+			{
+				"label": "Saint Pierre and Miquelon",
+				"value": "666"
+			},
+			{
+				"label": "China",
+				"value": "156"
+			},
+			{
+				"label": "Taiwan, Province of China",
+				"value": "158"
+			},
+			{
+				"label": "Kuwait",
+				"value": "414"
+			},
+			{
+				"label": "Saint Vincent and the Grenadines",
+				"value": "670"
+			},
+			{
+				"label": "Kyrgyzstan",
+				"value": "417"
+			},
+			{
+				"label": "Christmas Island",
+				"value": "162"
+			},
+			{
+				"label": "Lao People's Democratic Republic",
+				"value": "418"
+			},
+			{
+				"label": "San Marino",
+				"value": "674"
+			},
+			{
+				"label": "Cocos (Keeling) Islands",
+				"value": "166"
+			},
+			{
+				"label": "Lebanon",
+				"value": "422"
+			},
+			{
+				"label": "Sao Tome and Principe",
+				"value": "678"
+			},
+			{
+				"label": "Colombia",
+				"value": "170"
+			},
+			{
+				"label": "Lesotho",
+				"value": "426"
+			},
+			{
+				"label": "Saudi Arabia",
+				"value": "682"
+			},
+			{
+				"label": "Latvia",
+				"value": "428"
+			},
+			{
+				"label": "Comoros",
+				"value": "174"
+			},
+			{
+				"label": "Liberia",
+				"value": "430"
+			},
+			{
+				"label": "Senegal",
+				"value": "686"
+			},
+			{
+				"label": "Mayotte",
+				"value": "175"
+			},
+			{
+				"label": "Serbia",
+				"value": "688"
+			},
+			{
+				"label": "Congo",
+				"value": "178"
+			},
+			{
+				"label": "Libya",
+				"value": "434"
+			},
+			{
+				"label": "Seychelles",
+				"value": "690"
+			},
+			{
+				"label": "Congo, the Democratic Republic of the",
+				"value": "180"
+			},
+			{
+				"label": "Liechtenstein",
+				"value": "438"
+			},
+			{
+				"label": "Sierra Leone",
+				"value": "694"
+			},
+			{
+				"label": "Cook Islands",
+				"value": "184"
+			},
+			{
+				"label": "Lithuania",
+				"value": "440"
+			},
+			{
+				"label": "Luxembourg",
+				"value": "442"
+			},
+			{
+				"label": "Costa Rica",
+				"value": "188"
+			},
+			{
+				"label": "Macao",
+				"value": "446"
+			},
+			{
+				"label": "Singapore",
+				"value": "702"
+			},
+			{
+				"label": "Croatia",
+				"value": "191"
+			},
+			{
+				"label": "Slovakia",
+				"value": "703"
+			},
+			{
+				"label": "Cuba",
+				"value": "192"
+			},
+			{
+				"label": "Viet Nam",
+				"value": "704"
+			},
+			{
+				"label": "Slovenia",
+				"value": "705"
+			},
+			{
+				"label": "Madagascar",
+				"value": "450"
+			},
+			{
+				"label": "Somalia",
+				"value": "706"
+			},
+			{
+				"label": "Cyprus",
+				"value": "196"
+			},
+			{
+				"label": "Malawi",
+				"value": "454"
+			},
+			{
+				"label": "South Africa",
+				"value": "710"
+			},
+			{
+				"label": "Malaysia",
+				"value": "458"
+			},
+			{
+				"label": "Czech Republic",
+				"value": "203"
+			},
+			{
+				"label": "Benin",
+				"value": "204"
+			},
+			{
+				"label": "Zimbabwe",
+				"value": "716"
+			},
+			{
+				"label": "Maldives",
+				"value": "462"
+			},
+			{
+				"label": "Denmark",
+				"value": "208"
+			},
+			{
+				"label": "Mali",
+				"value": "466"
+			},
+			{
+				"label": "Dominica",
+				"value": "212"
+			},
+			{
+				"label": "Spain",
+				"value": "724"
+			},
+			{
+				"label": "Dominican Republic",
+				"value": "214"
+			},
+			{
+				"label": "Malta",
+				"value": "470"
+			},
+			{
+				"label": "South Sudan",
+				"value": "728"
+			},
+			{
+				"label": "Sudan",
+				"value": "729"
+			},
+			{
+				"label": "Ecuador",
+				"value": "218"
+			},
+			{
+				"label": "Martinique",
+				"value": "474"
+			},
+			{
+				"label": "Western Sahara",
+				"value": "732"
+			},
+			{
+				"label": "El Salvador",
+				"value": "222"
+			},
+			{
+				"label": "Mauritania",
+				"value": "478"
+			},
+			{
+				"label": "Mauritius",
+				"value": "480"
+			},
+			{
+				"label": "Equatorial Guinea",
+				"value": "226"
+			},
+			{
+				"label": "Mexico",
+				"value": "484"
+			},
+			{
+				"label": "Suriname",
+				"value": "740"
+			},
+			{
+				"label": "Ethiopia",
+				"value": "231"
+			},
+			{
+				"label": "Eritrea",
+				"value": "232"
+			},
+			{
+				"label": "Svalbard and Jan Mayen",
+				"value": "744"
+			},
+			{
+				"label": "Estonia",
+				"value": "233"
+			},
+			{
+				"label": "Faroe Islands",
+				"value": "234"
+			},
+			{
+				"label": "Monaco",
+				"value": "492"
+			},
+			{
+				"label": "Swaziland",
+				"value": "748"
+			},
+			{
+				"label": "Falkland Islands (Malvinas)",
+				"value": "238"
+			},
+			{
+				"label": "South Georgia and the South Sandwich Islands",
+				"value": "239"
+			},
+			{
+				"label": "Mongolia",
+				"value": "496"
+			},
+			{
+				"label": "Sweden",
+				"value": "752"
+			},
+			{
+				"label": "Fiji",
+				"value": "242"
+			},
+			{
+				"label": "Moldova, Republic of",
+				"value": "498"
+			},
+			{
+				"label": "Montenegro",
+				"value": "499"
+			},
+			{
+				"label": "Montserrat",
+				"value": "500"
+			},
+			{
+				"label": "Switzerland",
+				"value": "756"
+			},
+			{
+				"label": "Finland",
+				"value": "246"
+			},
+			{
+				"label": "Åland Islands",
+				"value": "248"
+			},
+			{
+				"label": "Morocco",
+				"value": "504"
+			},
+			{
+				"label": "Syrian Arab Republic",
+				"value": "760"
+			},
+			{
+				"label": "France",
+				"value": "250"
+			},
+			{
+				"label": "Tajikistan",
+				"value": "762"
+			},
+			{
+				"label": "Mozambique",
+				"value": "508"
+			},
+			{
+				"label": "Thailand",
+				"value": "764"
+			},
+			{
+				"label": "French Guiana",
+				"value": "254"
+			}
+		]
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "Paragraph",
+		"className": "alert alert-info"
+	},
+	{
+		"type": "select",
+		"label": "Payment",
+		"className": "form-control purchase",
+		"name": "purchase[]",
+		"values": [
+			{
+				"label": "ONE TICKET (Add $5.00)",
+				"value": "5",
+				"selected": true
+			},
+			{
+				"label": "TWO TICKET (Add $10.00)",
+				"value": "10"
+			},
+			{
+				"label": "THREE TICKET (Add $15.00)",
+				"value": "15"
+			}
+		]
+	}
+]

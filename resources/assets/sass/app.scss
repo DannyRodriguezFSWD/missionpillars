@@ -1,0 +1,96 @@
+/*
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+*/
+
+//@import "./crm-components";
+
+// @import "node_modules/vue-flash-message/dist/vue-flash-message.min.css";
+@import "~@coreui/coreui-pro/scss/coreui";
+
+//@import coreui overrides
+@import "coreui_overrides";
+
+
+/* Custom Styles.
+ * Note: Move this to a separate file if gone bigger.
+ */
+
+.vuetable-pagination-info{
+  display: none;
+}
+
+.status-list > .list-group-item-action > .badge {
+  font-size: .9em;
+}
+
+//Datatable Override
+.dataTables_paginate > .pagination{
+  justify-content: center !important;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting:before {
+  content: unset !important;
+}
+
+table.dataTable thead .sorting_asc:after{
+  font-family: "FontAwesome" !important;
+  content:"\f0d8" !important;
+  opacity: unset !important;
+  position: unset !important;
+  display: unset !important;
+  padding-left: .5em;
+}
+table.dataTable thead .sorting_desc:after{
+  font-family: "FontAwesome" !important;
+  content:"\f0d7" !important;
+  opacity: unset !important;
+  position: unset !important;
+  display: unset !important;
+  padding-left: .5em;
+}
+//End of Datatable Override
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-help {
+    cursor: help !important;
+}
+
+.cursor-all-scroll {
+    cursor: all-scroll !important;
+}
+
+.no-caret {
+    caret-color: rgba(0,0,0,0);
+}
+
+.box-setting:hover:not(.disabled){
+   cursor: pointer;
+   background: rgba(0,0,0,.1);
+ }
+ 
+ .disabled {
+    cursor: not-allowed !important;
+}
+
+.box-setting.active {
+    border: 2px solid #2eb85c !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 21, 0.175) !important;
+}
+
+.box-setting.active i {
+    color: #2eb85c !important;
+}
+
+/*
+ * End of Custom Styles.
+ */

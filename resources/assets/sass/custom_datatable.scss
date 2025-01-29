@@ -1,0 +1,52 @@
+.dataTables_wrapper {
+    tr {
+        min-height: 2em;
+    }
+    td {
+        // white-space: nowrap
+    }
+
+    th {
+        white-space: nowrap;
+        //Apply Form Control Styles On Data tables Column Filter Inputs
+        input {
+            display: block;
+            width: 100%;
+            color: #607d8b;
+            background-color: #fff;
+            background-image: none;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 0;
+            transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            &:focus{
+                color: #607d8b;
+                background-color: #fff;
+                border-color: #8ad4ee;
+                outline: none;
+            }
+        }
+    }
+    
+    .dt-button-collection > .dropdown-menu {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+}
+
+/********  Advanced Contact Search (Filters Styling) *******/
+
+#searchFilters .helptext {
+    font-size: small;
+    font-style: italic;
+}
+#searchFilters input[type=date], input[type=number], input[type=text] {
+    width: 50%;
+    display: inline-block !important;
+}
+#searchFilters #amountFilters input[type=number] { min-width: 12ch; width: 60%; }
+#searchFilters #dateFilters input[type=date] { min-width: 20ch; width: 60%; }
+#searchFilters #column_filtering_wrapper { min-width: 60%; }

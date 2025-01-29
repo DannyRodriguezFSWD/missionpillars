@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Nimbus Sans L';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://app.missionpillars.com/fonts/NimbusSansL/NimbusSanL-RegIta.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Nimbus Sans L';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://app.missionpillars.com/fonts/NimbusSansL/NimbusSanL-BolIta.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Nimbus Sans L';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://app.missionpillars.com/fonts/NimbusSansL/NimbusSanL-Reg.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Nimbus Sans L';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://app.missionpillars.com/fonts/NimbusSansL/NimbusSanL-Bol.otf) format('opentype');
+}

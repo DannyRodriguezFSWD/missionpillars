@@ -1,0 +1,1 @@
+@extends('transactions.splits.edit')

@@ -1,0 +1,1 @@
+<div class="text-center w-100 mb-3" data-loading="true"><h4><i class="fa fa-spinner fa-spin fa-lg text-warning"></i> @lang('Loading more ...')</h4></div>

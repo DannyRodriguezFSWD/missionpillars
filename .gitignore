@@ -1,0 +1,47 @@
+/vendor
+/node_modules
+/public/storage
+/public/js/app.js
+/public/css/app.css
+/public/css/crm-components.css
+/public/css/custom_datatable.css
+Homestead.yaml
+Homestead.json
+.env
+.idea
+package-lock.json
+/bower_components
+/nbproject/private/
+.DS_Store
+/nbproject/
+/storage/oauth-private.key
+/storage/oauth-public.key
+# /public/js/crm-communications-components.js
+# /public/js/crm-reports-components.js
+# /public/js/crm-software-billing-upgrade.js
+# /public/js/accounting-bank-integration-acc-list.js
+# /public/js/accounting-fund-transfer-entries.js
+# /public/js/accounting-journal-entries.js
+# /public/js/accounting-mapping-contributions.js
+# /public/js/accounting-registers.js
+# /public/js/accounting-reports.js
+/public/js/accounts-components.js
+/public/js/starting-balances.js
+/public/js/crm-*.js
+/public/js/tasks*.js
+/public/js/accounting-*.js
+/public/js/contact-*.js
+/public/js/people-*.js
+/public/js/family-*.js
+/public/js/group-*.js
+/public/mix-manifest.json
+.vagrant
+Vagrantfile
+bootstrap.sh
+ubuntu-xenial-16.04-cloudimg-console.log
+Dockerfile
+docker-compose.yml
+apache.conf
+docker-compose.env
+storage/debugbar/
+/.vscode

@@ -1,0 +1,91 @@
+[
+	{
+		"type": "header",
+		"subtype": "h2",
+		"label": "Contact"
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "Paragraph",
+		"className": "alert alert-info"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "First Name",
+		"className": "form-control",
+		"name": "first_name",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"required": true,
+		"label": "Last Name",
+		"className": "form-control",
+		"name": "last_name",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"subtype": "email",
+		"required": true,
+		"label": "Email",
+		"className": "form-control",
+		"name": "email_1"
+	},
+	{
+		"type": "text",
+		"label": "Text Field",
+		"className": "form-control",
+		"name": "cell_phone",
+		"subtype": "text"
+	},
+	{
+		"type": "text",
+		"label": "Date Field",
+		"className": "form-control calendar",
+		"name": "calendar",
+		"subtype": "text"
+	},
+	{
+		"type": "select",
+		"label": "Lorem ipsum dolor sit amet?",
+		"className": "form-control",
+		"name": "yes_no_answer",
+		"values": [
+			{
+				"label": "(Choose below)",
+				"value": "0"
+			},
+			{
+				"label": "YES",
+				"value": "yes"
+			},
+			{
+				"label": "NO",
+				"value": "no"
+			}
+		]
+	},
+	{
+		"type": "text",
+		"label": "Text Field",
+		"className": "form-control",
+		"name": "text-1504531543099",
+		"subtype": "text"
+	},
+	{
+		"type": "paragraph",
+		"subtype": "p",
+		"label": "Paragraph",
+		"className": "alert alert-info"
+	},
+	{
+		"type": "number",
+		"required": true,
+		"label": "Duis pellentesque, ex at mollis mattis",
+		"className": "form-control",
+		"name": "amount"
+	}
+]
