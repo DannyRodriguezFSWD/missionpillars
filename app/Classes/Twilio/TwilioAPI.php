@@ -27,8 +27,7 @@ use Ramsey\Uuid\Uuid;
 class TwilioAPI{
     use ContactTrait;
     
-    // const TEST_TWILIO_SID = "";
-    // const TEST_TWILIO_AUTH_TOKEN = ;
+ 
     const REPLACE_PREFIX = '+1';
 
     private $unsubscribeWords = [
