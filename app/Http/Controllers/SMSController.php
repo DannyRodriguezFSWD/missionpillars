@@ -271,9 +271,7 @@ class SMSController extends Controller
     }
 
     public function replyIncomeWebHook(Request $request){
-        //$json = '{"ToCountry":"US","ToState":"GA","SmsMessageSid":"SMc8361bd39bdf8f0caa7cdbc8d3124240","NumMedia":"0","ToCity":"ATLANTA","FromZip":null,"SmsSid":"SMc8361bd39bdf8f0caa7cdbc8d3124240","FromState":"Oax.","SmsStatus":"received","FromCity":"Zimatlan De Alvarez","Body":"Hola","FromCountry":"MX","To":"+14702608304","ToZip":null,"NumSegments":"1","MessageSid":"SMc8361bd39bdf8f0caa7cdbc8d3124240","AccountSid":"AC46fa212461064e808c176e74e0fc56a9","From":"+529511232273","ApiVersion":"2010-04-01"}';
-        //$request = json_decode($json, true);
-
+     
         $twilio = new TwilioAPI();
         $twilio->replyReceivedCallback($request);
     }
